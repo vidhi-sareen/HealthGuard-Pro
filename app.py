@@ -31,7 +31,7 @@ with st.sidebar:
     selected = option_menu(
         'HealthGuard Pro',
         ['Diabetes Prediction', 'Heart Disease Prediction', 'Parkinsons Prediction','Breast Cancer Prediction'],
-        icons=['capsule-pill', 'heart-pulse', 'graph-up-arrow', ''],
+        icons=['capsule-pill', 'heart-pulse', 'graph-up-arrow', 'hospital'],
         default_index=0
     )
     
